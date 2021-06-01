@@ -1,0 +1,97 @@
+body{
+  /* background: url('./bg.png'); */
+  color: white;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: left;
+  background-attachment: fixed;
+  /* overflow: hidden; */
+}
+
+html{
+  height: 100%;
+
+}
+#content{
+    text-align: center;
+}
+.container{
+  margin-top: 1%;
+}
+video{
+  width: 100%;
+  height: auto;
+  max-height: 260px;
+  margin: 2px 2px;
+  object-fit: fill;
+  box-shadow: 0px 1px 2px 1px black;
+}
+
+.btn-default{
+    background-color: #8ddd70;
+    color: #064046;
+    box-shadow: 0px 1px 2px 1px cyan;
+}
+h1{
+  color: red;
+  background-color: white;
+  border-radius: 20%;
+  opacity: 60%;
+  box-shadow: 0 1px 3px 0 black;
+}
+h3{
+  background-color: #042f40;
+  opacity: .7;
+  border-radius: 7%;
+}
+
+<code>
+@media screen and (max-width: 481px){
+  body{
+    /* background: url('./bg.png'); */
+    color: white;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: left;
+    background-attachment: fixed;
+    /* overflow: hidden; */
+  }
+
+  html{
+    height: 100%;
+
+  }
+  #content{
+      text-align: center;
+  }
+  .container{
+    margin-top: 1%;
+  }
+  video{
+    width: 100%;
+    height: auto;
+    max-height: 260px;
+    margin: 2px 2px;
+    object-fit: fill;
+    box-shadow: 0px 1px 2px 1px black;
+  }
+
+  .btn-default{
+      background-color: #8ddd70;
+      color: #064046;
+      box-shadow: 0px 1px 2px 1px cyan;
+  }
+  h1{
+    color: red;
+    background-color: white;
+    border-radius: 20%;
+    opacity: 60%;
+    box-shadow: 0 1px 3px 0 black;
+  }
+  h3{
+    background-color: #042f40;
+    opacity: .7;
+    border-radius: 7%;
+  }
+}
+</code>
